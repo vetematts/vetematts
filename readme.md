@@ -13,4 +13,4 @@ Currently coding my way through a full-stack web developer bootcamp.
 
 ## 📱 Connect with me
 
-- [Twitter](https://twitter.com/mattcicala)
+- [Twitter](https://twitter.com/vetematts)
