@@ -10,3 +10,7 @@ Currently coding my way through a full-stack web developer bootcamp.
 - CSS basics and layout styling
 - Markdown for documentation
 - Version Control using Git
+
+## 📱 Connect with me
+
+- [Twitter](https://twitter.com/mattcicala)
