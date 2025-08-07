@@ -1,15 +1,17 @@
 # Hey, I'm Matt 👋
 
-Currently coding my way through a full-stack web developer bootcamp. 
+Currently coding my way through a full-stack web developer bootcamp.  
+Recently diving into Python as well!
 
 ---
 
-## 🔧 Things I'm Learning
+## 🔧 What I'm Working On
 
-- HTML Basics
-- CSS basics and layout styling
-- Markdown for documentation
-- Version Control using Git
+- Exploring Python programming
+- Building web pages with HTML
+- Designing layouts and styles with CSS
+- Writing documentation in Markdown
+- Managing projects with Git version control
 
 ## 📱 Connect with me
 
