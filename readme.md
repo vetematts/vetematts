@@ -5,7 +5,6 @@ Currently coding my way through a full-stack web developer bootcamp at Coder Aca
 ![Matrix rain](https://raw.githubusercontent.com/vetematts/vetematts/output/matrix-rain.svg)
 
 ---
-<!-- test -->
 
 ## 🔧 What I'm Working On
 
