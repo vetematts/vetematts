@@ -4,7 +4,6 @@ Currently coding my way through a full-stack web developer bootcamp at Coder Aca
 
 ![Matrix rain](https://raw.githubusercontent.com/vetematts/vetematts/output/matrix-rain.svg)
 
----
 
 ## 🔧 What I'm Working On
 
@@ -15,7 +14,3 @@ Currently coding my way through a full-stack web developer bootcamp at Coder Aca
 - ⚙️ Writing Python applications (both OOP and non-OOP)
 - 🤝 Collaborating with Git & GitHub workflows
 - 🎨 Building and styling websites with HTML + CSS
-
-## 📱 Connect with me
-
-- [X](https://x.com/vetematts)
