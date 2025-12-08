@@ -1,9 +1,7 @@
-# Publishes the Matrix rain SVG to the output branch so it can be embedded in the README.
 name: Matrix Rain
-
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -15,12 +13,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - name: Copy Matrix Rain asset
         run: |
           mkdir -p dist
           cp assets/matrix-rain.svg dist/matrix-rain.svg
-
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:

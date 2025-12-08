@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Matrix rain animation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05070a" />
+      <stop offset="100%" stop-color="#0b0f16" />
+    </linearGradient>
+    <style>
+      @keyframes fall { 0% { transform: translateY(-120%); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(120%); opacity: 0; } }
+      text { font-family: "Courier New", monospace; letter-spacing: 4px; writing-mode: vertical-rl; glyph-orientation-vertical: 0; filter: drop-shadow(0 0 6px #00ff90); }
+      .layer-1 { fill: #00ff90; opacity: 0.85; animation-duration: 7s; }
+      .layer-2 { fill: #0bd67c; opacity: 0.7; animation-duration: 8.5s; }
+      .layer-3 { fill: #0a9b5b; opacity: 0.55; animation-duration: 10s; }
+    </style>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)" />
+  <g>
+    <text class="layer-1" x="80" y="-40" style="animation: fall linear infinite; animation-delay: -1s;">0101010010110010101100101011</text>
+    <text class="layer-2" x="160" y="-120" style="animation: fall linear infinite; animation-delay: -3.5s;">11001010100110100101100101</text>
+    <text class="layer-3" x="240" y="-90" style="animation: fall linear infinite; animation-delay: -2.25s;">001101010010110101001010011010</text>
+    <text class="layer-1" x="320" y="-80" style="animation: fall linear infinite; animation-delay: -4.5s;">1010011010010110100101100101</text>
+    <text class="layer-2" x="400" y="-30" style="animation: fall linear infinite; animation-delay: -0.75s;">0101100101100101001011001010</text>
+    <text class="layer-3" x="480" y="-110" style="animation: fall linear infinite; animation-delay: -5.25s;">1010010110010110010100101100</text>
+    <text class="layer-1" x="560" y="-60" style="animation: fall linear infinite; animation-delay: -2.9s;">0100101101010010101100101101</text>
+    <text class="layer-2" x="640" y="-150" style="animation: fall linear infinite; animation-delay: -6s;">1101001011001010010110010110</text>
+    <text class="layer-3" x="720" y="-100" style="animation: fall linear infinite; animation-delay: -1.8s;">0010110010100110100101100101</text>
+    <text class="layer-1" x="800" y="-70" style="animation: fall linear infinite; animation-delay: -3.75s;">1011010010110010100101100101</text>
+    <text class="layer-2" x="880" y="-130" style="animation: fall linear infinite; animation-delay: -5.75s;">0101100101100101100100101100</text>
+    <text class="layer-3" x="960" y="-50" style="animation: fall linear infinite; animation-delay: -4.1s;">0010110010011010010110010101</text>
+    <text class="layer-1" x="1040" y="-140" style="animation: fall linear infinite; animation-delay: -2.1s;">1101001011001010010110010011</text>
+    <text class="layer-2" x="1120" y="-60" style="animation: fall linear infinite; animation-delay: -6.4s;">0101100101100101010010110010</text>
+  </g>
+</svg>
