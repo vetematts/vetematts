@@ -12,6 +12,7 @@
       .layer-3 { fill: #0a9b5b; opacity: 0.55; animation-duration: 10s; }
     </style>
   </defs>
+  <!-- test -->
   <rect width="1200" height="400" fill="url(#bg)" />
   <g>
     <text class="layer-1" x="80" y="-40" style="animation-delay: -1s;">0101010010110010101100101011</text>
