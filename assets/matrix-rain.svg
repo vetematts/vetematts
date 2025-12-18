@@ -6,10 +6,27 @@
     </linearGradient>
     <style>
       @keyframes fall { 0% { transform: translateY(-120%); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(120%); opacity: 0; } }
+      @keyframes typeChar1 { 0% { opacity: 0; } 12% { opacity: 0; } 13% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeChar2 { 0% { opacity: 0; } 20% { opacity: 0; } 21% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeChar3 { 0% { opacity: 0; } 28% { opacity: 0; } 29% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeChar4 { 0% { opacity: 0; } 36% { opacity: 0; } 37% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeChar5 { 0% { opacity: 0; } 44% { opacity: 0; } 45% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeChar6 { 0% { opacity: 0; } 52% { opacity: 0; } 53% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeChar7 { 0% { opacity: 0; } 60% { opacity: 0; } 61% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes typeFade { 0% { opacity: 0; } 10% { opacity: 1; } 70% { opacity: 1; } 90% { opacity: 0; } 100% { opacity: 0; } }
       text { font-family: "Courier New", monospace; letter-spacing: 4px; writing-mode: vertical-rl; glyph-orientation-vertical: 0; filter: drop-shadow(0 0 6px #00ff90); animation: fall linear infinite; }
       .layer-1 { fill: #00ff90; opacity: 0.85; animation-duration: 7s; }
       .layer-2 { fill: #0bd67c; opacity: 0.7; animation-duration: 8.5s; }
       .layer-3 { fill: #0a9b5b; opacity: 0.55; animation-duration: 10s; }
+      .type-text { writing-mode: horizontal-tb; glyph-orientation-vertical: 0; letter-spacing: 6px; font-size: 32px; font-weight: 700; fill: #caffea; filter: drop-shadow(0 0 10px #00ff90); animation: typeFade 10s ease-in-out infinite; }
+      .type-char { opacity: 0; animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: linear; animation-fill-mode: both; }
+      .char-1 { animation-name: typeChar1; }
+      .char-2 { animation-name: typeChar2; }
+      .char-3 { animation-name: typeChar3; }
+      .char-4 { animation-name: typeChar4; }
+      .char-5 { animation-name: typeChar5; }
+      .char-6 { animation-name: typeChar6; }
+      .char-7 { animation-name: typeChar7; }
     </style>
   </defs>
   <rect width="1200" height="400" fill="url(#bg)" />
@@ -29,4 +46,13 @@
     <text class="layer-1" x="1040" y="-140" style="animation-delay: -2.1s;">1101001011001010010110010011</text>
     <text class="layer-2" x="1120" y="-60" style="animation-delay: -6.4s;">0101100101100101010010110010</text>
   </g>
+  <text class="type-text" x="360" y="210" dominant-baseline="middle">
+    <tspan class="type-char char-1">m</tspan>
+    <tspan class="type-char char-2">a</tspan>
+    <tspan class="type-char char-3">t</tspan>
+    <tspan class="type-char char-4">t</tspan>
+    <tspan class="type-char char-5">.</tspan>
+    <tspan class="type-char char-6">.</tspan>
+    <tspan class="type-char char-7">.</tspan>
+  </text>
 </svg>
