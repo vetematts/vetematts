@@ -10,10 +10,19 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Essential for the bot to push the heartbeat
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Keep-alive heartbeat
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          date > heartbeat.txt
+          git add heartbeat.txt
+          git commit -m "Keep-alive heartbeat 🌧️" || echo "No changes to commit"
+          git push
 
       - name: Copy Matrix Rain asset
         run: |
@@ -27,6 +36,3 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update matrix rain"
-
-      - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@v2 # Corrected spelling
