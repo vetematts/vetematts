@@ -5,17 +5,19 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
       - name: Copy Matrix Rain asset
         run: |
           mkdir -p dist
           cp assets/matrix-rain.svg dist/matrix-rain.svg
+
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -23,3 +25,6 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update matrix rain"
+
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@v2
