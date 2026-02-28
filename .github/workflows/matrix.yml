@@ -10,24 +10,17 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Essential for the bot to push the heartbeat
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Keep-alive heartbeat
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          date > heartbeat.txt
-          git add heartbeat.txt
-          git commit -m "Keep-alive heartbeat 🌧️" || echo "No changes to commit"
-          git push
 
       - name: Copy Matrix Rain asset
         run: |
           mkdir -p dist
           cp assets/matrix-rain.svg dist/matrix-rain.svg
+          # Touch file so deploy always has a change → push to output branch = repo activity (keeps workflow enabled, no main-branch commits)
+          date -u +%Y-%m-%dT%H:%M:%SZ > dist/last-updated.txt
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
