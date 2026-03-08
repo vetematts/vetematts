@@ -5,7 +5,7 @@
       <stop offset="100%" stop-color="#0b0f16" />
     </linearGradient>
     <style>
-      @keyframes fall { 0% { transform: translateY(-120%); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(120%); opacity: 0; } }
+      @keyframes fall { 0% { transform: translateY(-120%); opacity: 0; } 25% { opacity: 1; } 75% { opacity: 1; } 100% { transform: translateY(120%); opacity: 0; } }
       @keyframes typeChar1 { 0% { opacity: 0; } 12% { opacity: 0; } 13% { opacity: 1; } 100% { opacity: 1; } }
       @keyframes typeChar2 { 0% { opacity: 0; } 20% { opacity: 0; } 21% { opacity: 1; } 100% { opacity: 1; } }
       @keyframes typeChar3 { 0% { opacity: 0; } 28% { opacity: 0; } 29% { opacity: 1; } 100% { opacity: 1; } }
@@ -31,20 +31,20 @@
   </defs>
   <rect width="1200" height="400" fill="url(#bg)" />
   <g>
-    <text class="layer-1" x="80" y="-40" style="animation-delay: -1s;">0101010010110010101100101011</text>
-    <text class="layer-2" x="160" y="-120" style="animation-delay: -3.5s;">11001010100110100101100101</text>
-    <text class="layer-3" x="240" y="-90" style="animation-delay: -2.25s;">001101010010110101001010011010</text>
-    <text class="layer-1" x="320" y="-80" style="animation-delay: -4.5s;">1010011010010110100101100101</text>
-    <text class="layer-2" x="400" y="-30" style="animation-delay: -0.75s;">0101100101100101001011001010</text>
-    <text class="layer-3" x="480" y="-110" style="animation-delay: -5.25s;">1010010110010110010100101100</text>
-    <text class="layer-1" x="560" y="-60" style="animation-delay: -2.9s;">0100101101010010101100101101</text>
-    <text class="layer-2" x="640" y="-150" style="animation-delay: -6s;">1101001011001010010110010110</text>
-    <text class="layer-3" x="720" y="-100" style="animation-delay: -1.8s;">0010110010100110100101100101</text>
-    <text class="layer-1" x="800" y="-70" style="animation-delay: -3.75s;">1011010010110010100101100101</text>
-    <text class="layer-2" x="880" y="-130" style="animation-delay: -5.75s;">0101100101100101100100101100</text>
-    <text class="layer-3" x="960" y="-50" style="animation-delay: -4.1s;">0010110010011010010110010101</text>
-    <text class="layer-1" x="1040" y="-140" style="animation-delay: -2.1s;">1101001011001010010110010011</text>
-    <text class="layer-2" x="1120" y="-60" style="animation-delay: -6.4s;">0101100101100101010010110010</text>
+    <text class="layer-1" x="80" y="-40" style="animation-delay: -1s;">アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01</text>
+    <text class="layer-2" x="160" y="-120" style="animation-delay: -3.5s;">イウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01ア</text>
+    <text class="layer-3" x="240" y="-90" style="animation-delay: -2.25s;">ウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイ</text>
+    <text class="layer-1" x="320" y="-80" style="animation-delay: -4.5s;">エオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウ</text>
+    <text class="layer-2" x="400" y="-30" style="animation-delay: -0.75s;">オカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエ</text>
+    <text class="layer-3" x="480" y="-110" style="animation-delay: -5.25s;">カキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオ</text>
+    <text class="layer-1" x="560" y="-60" style="animation-delay: -2.9s;">キクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカ</text>
+    <text class="layer-2" x="640" y="-150" style="animation-delay: -6s;">クケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキ</text>
+    <text class="layer-3" x="720" y="-100" style="animation-delay: -1.8s;">ケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキク</text>
+    <text class="layer-1" x="800" y="-70" style="animation-delay: -3.75s;">コサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケ</text>
+    <text class="layer-2" x="880" y="-130" style="animation-delay: -5.75s;">サシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコ</text>
+    <text class="layer-3" x="960" y="-50" style="animation-delay: -4.1s;">シスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサ</text>
+    <text class="layer-1" x="1040" y="-140" style="animation-delay: -2.1s;">スセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサシ</text>
+    <text class="layer-2" x="1120" y="-60" style="animation-delay: -6.4s;">セソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサシス</text>
   </g>
   <text class="type-text" x="360" y="210" dominant-baseline="middle">
     <tspan class="type-char char-1">m</tspan>
