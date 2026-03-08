@@ -14,10 +14,12 @@
       @keyframes typeChar6 { 0% { opacity: 0; } 52% { opacity: 0; } 53% { opacity: 1; } 100% { opacity: 1; } }
       @keyframes typeChar7 { 0% { opacity: 0; } 60% { opacity: 0; } 61% { opacity: 1; } 100% { opacity: 1; } }
       @keyframes typeFade { 0% { opacity: 0; } 10% { opacity: 1; } 70% { opacity: 1; } 90% { opacity: 0; } 100% { opacity: 0; } }
-      text { font-family: "Courier New", monospace; letter-spacing: 4px; writing-mode: vertical-rl; glyph-orientation-vertical: 0; filter: drop-shadow(0 0 6px #00ff90); animation: fall linear infinite; }
+      text { font-family: "Courier New", monospace; font-size: 18px; letter-spacing: 4px; writing-mode: vertical-rl; glyph-orientation-vertical: 0; filter: drop-shadow(0 0 6px #00ff90); animation: fall linear infinite; }
       .layer-1 { fill: #00ff90; opacity: 0.85; animation-duration: 7s; }
       .layer-2 { fill: #0bd67c; opacity: 0.7; animation-duration: 8.5s; }
       .layer-3 { fill: #0a9b5b; opacity: 0.55; animation-duration: 10s; }
+      .depth-mid { font-size: 14px; letter-spacing: 3px; opacity: 0.5; filter: drop-shadow(0 0 3px #00ff90); }
+      .depth-far { font-size: 11px; letter-spacing: 2px; opacity: 0.28; filter: drop-shadow(0 0 2px #00ff90); }
       .type-text { writing-mode: horizontal-tb; glyph-orientation-vertical: 0; letter-spacing: 6px; font-size: 32px; font-weight: 700; fill: #caffea; filter: drop-shadow(0 0 10px #00ff90); animation: typeFade 10s ease-in-out infinite; }
       .type-char { opacity: 0; animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: linear; animation-fill-mode: both; }
       .char-1 { animation-name: typeChar1; }
@@ -30,21 +32,22 @@
     </style>
   </defs>
   <rect width="1200" height="400" fill="url(#bg)" />
+  <!-- Matrix rain: consistent katakana + 01; depth-mid/far = smaller, more faded -->
   <g>
     <text class="layer-1" x="80" y="-40" style="animation-delay: -1s;">アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01</text>
-    <text class="layer-2" x="160" y="-120" style="animation-delay: -3.5s;">イウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01ア</text>
-    <text class="layer-3" x="240" y="-90" style="animation-delay: -2.25s;">ウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイ</text>
+    <text class="layer-2 depth-mid" x="160" y="-120" style="animation-delay: -3.5s;">イウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01ア</text>
+    <text class="layer-3 depth-far" x="240" y="-90" style="animation-delay: -2.25s;">ウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイ</text>
     <text class="layer-1" x="320" y="-80" style="animation-delay: -4.5s;">エオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウ</text>
-    <text class="layer-2" x="400" y="-30" style="animation-delay: -0.75s;">オカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエ</text>
-    <text class="layer-3" x="480" y="-110" style="animation-delay: -5.25s;">カキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオ</text>
+    <text class="layer-2 depth-mid" x="400" y="-30" style="animation-delay: -0.75s;">オカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエ</text>
+    <text class="layer-3 depth-far" x="480" y="-110" style="animation-delay: -5.25s;">カキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオ</text>
     <text class="layer-1" x="560" y="-60" style="animation-delay: -2.9s;">キクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカ</text>
-    <text class="layer-2" x="640" y="-150" style="animation-delay: -6s;">クケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキ</text>
-    <text class="layer-3" x="720" y="-100" style="animation-delay: -1.8s;">ケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキク</text>
+    <text class="layer-2 depth-mid" x="640" y="-150" style="animation-delay: -6s;">クケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキ</text>
+    <text class="layer-3 depth-far" x="720" y="-100" style="animation-delay: -1.8s;">ケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキク</text>
     <text class="layer-1" x="800" y="-70" style="animation-delay: -3.75s;">コサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケ</text>
-    <text class="layer-2" x="880" y="-130" style="animation-delay: -5.75s;">サシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコ</text>
-    <text class="layer-3" x="960" y="-50" style="animation-delay: -4.1s;">シスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサ</text>
+    <text class="layer-2 depth-mid" x="880" y="-130" style="animation-delay: -5.75s;">サシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコ</text>
+    <text class="layer-3 depth-far" x="960" y="-50" style="animation-delay: -4.1s;">シスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサ</text>
     <text class="layer-1" x="1040" y="-140" style="animation-delay: -2.1s;">スセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサシ</text>
-    <text class="layer-2" x="1120" y="-60" style="animation-delay: -6.4s;">セソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサシス</text>
+    <text class="layer-2 depth-mid" x="1120" y="-60" style="animation-delay: -6.4s;">セソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01アイウエオカキクケコサシス</text>
   </g>
   <text class="type-text" x="360" y="210" dominant-baseline="middle">
     <tspan class="type-char char-1">m</tspan>
