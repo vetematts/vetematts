@@ -31,20 +31,20 @@
   </defs>
   <rect width="1200" height="400" fill="url(#bg)" />
   <g>
-    <text class="layer-1" x="80" y="-40" style="animation-delay: -1s;">0101010010110010101100101011</text>
-    <text class="layer-2" x="160" y="-120" style="animation-delay: -3.5s;">11001010100110100101100101</text>
-    <text class="layer-3" x="240" y="-90" style="animation-delay: -2.25s;">001101010010110101001010011010</text>
-    <text class="layer-1" x="320" y="-80" style="animation-delay: -4.5s;">1010011010010110100101100101</text>
-    <text class="layer-2" x="400" y="-30" style="animation-delay: -0.75s;">0101100101100101001011001010</text>
-    <text class="layer-3" x="480" y="-110" style="animation-delay: -5.25s;">1010010110010110010100101100</text>
-    <text class="layer-1" x="560" y="-60" style="animation-delay: -2.9s;">0100101101010010101100101101</text>
-    <text class="layer-2" x="640" y="-150" style="animation-delay: -6s;">1101001011001010010110010110</text>
-    <text class="layer-3" x="720" y="-100" style="animation-delay: -1.8s;">0010110010100110100101100101</text>
-    <text class="layer-1" x="800" y="-70" style="animation-delay: -3.75s;">1011010010110010100101100101</text>
-    <text class="layer-2" x="880" y="-130" style="animation-delay: -5.75s;">0101100101100101100100101100</text>
-    <text class="layer-3" x="960" y="-50" style="animation-delay: -4.1s;">0010110010011010010110010101</text>
-    <text class="layer-1" x="1040" y="-140" style="animation-delay: -2.1s;">1101001011001010010110010011</text>
-    <text class="layer-2" x="1120" y="-60" style="animation-delay: -6.4s;">0101100101100101010010110010</text>
+    <text class="layer-1" x="80" y="-40" style="animation-delay: -1s;">01010ア0010110010101イ00101011</text>
+    <text class="layer-2" x="160" y="-120" style="animation-delay: -3.5s;">110010ウ0100110100101カ00101</text>
+    <text class="layer-3" x="240" y="-90" style="animation-delay: -2.25s;">001101キ0100101101010010エ10011010</text>
+    <text class="layer-1" x="320" y="-80" style="animation-delay: -4.5s;">101001オ0100101101001011サ0101</text>
+    <text class="layer-2" x="400" y="-30" style="animation-delay: -0.75s;">010110タ0101100101001011シ01010</text>
+    <text class="layer-3" x="480" y="-110" style="animation-delay: -5.25s;">101001チ0101100101001011ツ00100</text>
+    <text class="layer-1" x="560" y="-60" style="animation-delay: -2.9s;">010010テ1010010101100101ナ101</text>
+    <text class="layer-2" x="640" y="-150" style="animation-delay: -6s;">110100ニ1010010101100101ヌ0110</text>
+    <text class="layer-3" x="720" y="-100" style="animation-delay: -1.8s;">001011ネ0100110100101100101ハ1</text>
+    <text class="layer-1" x="800" y="-70" style="animation-delay: -3.75s;">101101ヒ0010110010100101マ00101</text>
+    <text class="layer-2" x="880" y="-130" style="animation-delay: -5.75s;">010110ム0101100101100100101ヤ00</text>
+    <text class="layer-3" x="960" y="-50" style="animation-delay: -4.1s;">001011ユ0011010010110010101ラ0</text>
+    <text class="layer-1" x="1040" y="-140" style="animation-delay: -2.1s;">110100リ1010010110010011ワ01</text>
+    <text class="layer-2" x="1120" y="-60" style="animation-delay: -6.4s;">010110ヲ010110010101001011ン010</text>
   </g>
   <text class="type-text" x="360" y="210" dominant-baseline="middle">
     <tspan class="type-char char-1">m</tspan>
