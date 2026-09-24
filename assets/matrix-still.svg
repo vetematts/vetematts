@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Matt — Matrix terminal</title>
-  <desc id="desc">Green code rain falls behind a small terminal prompt that types matt, pauses with a blinking underscore cursor, then repeats.</desc>
+  <desc id="desc">Still green code rain behind a small terminal prompt reading matt.</desc>
   <defs>
     <!-- A local dip in contrast keeps the prompt readable without clearing a vertical lane. -->
     <radialGradient id="quiet" cx="50%" cy="50%" rx="50%">
@@ -30,6 +30,10 @@
         .char, .cursor { opacity: 1; }
         .cursor-position { transform: translateX(68px); }
       }
+    /* Static companion used by the README picture element. */
+      .stream, .char, .cursor-position, .cursor { animation: none; }
+      .char, .cursor { opacity: 1; }
+      .cursor-position { transform: translateX(68px); }
     </style>
   </defs>
   <rect width="1200" height="360" fill="#030907"/>
